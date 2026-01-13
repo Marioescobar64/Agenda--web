@@ -1,0 +1,27 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Contenedor principal */
+#app {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 300px 1fr; /* 300px para nav, resto para container */
+    gap: 10px;
+}
+
+/* Barra de navegación */
+#nav {
+    height: 100vh;
+    border: 1px solid #000; /* corregido */
+}
+
+/* Contenedor de contenido */
+#container {
+    height: 100vh;
+    border: 1px solid #000; /* corregido */
+}
