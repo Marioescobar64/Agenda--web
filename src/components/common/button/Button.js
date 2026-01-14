@@ -6,7 +6,7 @@ let divImage = document. createElement("div");
 divImage.className = "button-image";
 
 let imgIcon = document. createElement("img");
- imgIcon.src = `./assets/icon/${img}`;
+imgIcon.src = `./assets/icon/${img}`;
 divImage.appendChild(imgIcon);
 
 let p = document.createElement("p");
